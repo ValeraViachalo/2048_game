@@ -39,16 +39,8 @@ export function messageText(eventMessage) {
       break;
     }
 
-    case 'skip': {
-      // eslint-disable-next-line max-len
-      message.innerText = 'The skip button is created just for checking if you can win without sitting for 30 minutes, as I did))))';
-
-      message.classList.add('message-lose');
-      break;
-    }
-
     default: {
-      message.innerText = ' Something went wrong! Let\'s just reload tab?';
+      message.innerText = 'Something went wrong!';
       break;
     }
   }

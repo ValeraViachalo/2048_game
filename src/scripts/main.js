@@ -157,7 +157,6 @@ function handleSkip() {
 
   isLose = false;
 
-  messageText('skip');
   skipButton.classList.add('hidden');
 }
 
