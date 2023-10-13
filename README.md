@@ -1,35 +1,36 @@
-<h1> 2048 Game </h1>
+# 2048 Game
 
-  - [DEMO LINK](https://valeraviachalo.github.io/2048_game/)
+- [DEMO LINK](https://valeraviachalo.github.io/2048_game/)
 <hr />
 
-# Technologies
+## Technologies
 - HTML
 - SCSS
 - JavaScript
 
-## Adaptive
-  - Desktop 1280px
-  - Mobile (> 320px)
+### Adaptive
+- Desktop: 1280px
+- Mobile: > 320px
 
 <br />
 
-# Features
-  - ## Skip button
-    - The skip button was created for checking full functional of game and if we can win without long playing game
+## Features
+  ### Skip Button
+  - The skip button was created to check the full functionality of the game and determine if it's possible to win without extended gameplay.
 
-      ![Skip button](./src/images/for-readme/skip.gif)
+    ![Skip button](./src/images/for-readme/skip.gif)
 
-    - Button desapear after 5 seconds when game starts
+  - The button disappears after 5 seconds when the game starts.
 
-      ![Button desapear](./src/images/for-readme/skip-desapear.gif)
+    ![Button disappears](./src/images/for-readme/skip-disappears.gif)
 
-  - ## Response for mobile phones
-    - In the game was created functional for playing in touch devices
+  ### Responsive for Mobile Phones
+  - The game features functionality for playing on touch devices.
 
+    ![Mobile response](./src/images/for-readme/response.gif)
 
-## How to run
-1. Install node v. 14.18.0
-2. Open project and run `npm i`
-3. Write `npm start`
-4. Done
+## How to Run
+1. Install Node.js version 14.18.0.
+2. Open the project and run `npm install`.
+3. Run `npm start`.
+4. You're done.
